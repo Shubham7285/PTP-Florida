@@ -2189,7 +2189,7 @@ if (function_exists('add_filter')) {
         function add_defer_to_all_scripts_except_swiper($tag, $handle, $src) {
             $exclude_handles = array('jquery-core', 'swiper', 'swiper-bindule');
 
-            if (current_user_can('administrator') || current_user_can('editor')) {
+            if (current_user_can('administrator')) {
                 return $tag;
             }
 

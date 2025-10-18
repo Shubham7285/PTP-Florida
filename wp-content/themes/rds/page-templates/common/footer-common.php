@@ -254,4 +254,4 @@ $img3x = Implode(",", $img3x);
 <?php 
 if (is_array($get_rds_tracking) && isset($get_rds_tracking["tracking"]["enable"]) && $get_rds_tracking["tracking"]["enable"] == true) {
 	//do_action('rds_footer_bottom');
-} 
+} ?>
